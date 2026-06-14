@@ -66,11 +66,3 @@ aceite de cocina usado
 vidrio roto
 lata de aluminio
 ```
-
-## Repositorio
-
-Pegar aquí el enlace de GitHub.
-
-## Video y TikTok
-
-Pegar aquí los enlaces cuando estén publicados.
