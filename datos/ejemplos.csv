@@ -1,81 +1,152 @@
 texto,categoria
-hola,saludo
-buenas tardes,saludo
-buenos dias,saludo
-hey bot,saludo
-que onda,saludo
-necesito ayuda para reciclar,saludo
-me ayudas a separar basura,saludo
-como funciona esto,saludo
-adios,despedida
-hasta luego,despedida
-nos vemos,despedida
-gracias bye,despedida
-salir,despedida
-terminamos,despedida
-ya no necesito ayuda,despedida
-ok gracias,despedida
-donde tiro una botella de plastico,plastico
-tengo una botella pet,plastico
-en que bote va el plastico,plastico
-vaso desechable de plastico,plastico
-bolsa de plastico limpia,plastico
-envase de shampoo vacio,plastico
-tapa de refresco de plastico,plastico
-garrafon de plastico roto,plastico
-donde pongo carton,papel_carton
-caja de cereal,papel_carton
-hojas usadas,papel_carton
-libreta vieja,papel_carton
-bolsa de papel,papel_carton
-carton de paqueteria,papel_carton
-periodico viejo,papel_carton
-revistas usadas,papel_carton
-donde tiro vidrio,vidrio
+botella de plástico,plastico
+botella de plastico,plastico
+botella PET,plastico
+botella pet,plastico
+envase de refresco,plastico
+envase de agua,plastico
+garrafón de plástico,plastico
+garrafon de plastico,plastico
+bolsa de plástico,plastico
+bolsa plastica,plastico
+vaso de plástico,plastico
+vaso de plastico,plastico
+tapa de plástico,plastico
+tapa de plastico,plastico
+envoltura de plástico,plastico
+envoltura de plastico,plastico
+cubeta rota de plástico,plastico
+plástico reciclable,plastico
+plastico reciclable,plastico
+envase de shampoo,plastico
+envase de detergente,plastico
 botella de vidrio,vidrio
+frasco de vidrio,vidrio
+vaso de vidrio,vidrio
+vidrio roto,vidrio
+tarro de vidrio,vidrio
+envase de vidrio,vidrio
+cristal roto,vidrio
 frasco de mermelada,vidrio
-vaso de vidrio roto,vidrio
-cristal quebrado,vidrio
-envase de salsa de vidrio,vidrio
-botella de perfume vacia,vidrio
-recipiente de vidrio,vidrio
+botella de vino,vidrio
+botella de cerveza de vidrio,vidrio
+caja de cartón,papel_carton
+caja de carton,papel_carton
+hoja de papel,papel_carton
+papel limpio,papel_carton
+cuaderno viejo,papel_carton
+libreta usada,papel_carton
+periódico,papel_carton
+periodico,papel_carton
+revista,papel_carton
+cartulina,papel_carton
+cartón seco,papel_carton
+carton seco,papel_carton
+papel de oficina,papel_carton
+folder de papel,papel_carton
 lata de aluminio,metal
-donde va una lata,metal
-pieza metalica pequeña,metal
-clavo oxidado,metal
-alambre de cobre,metal
+lata de refresco,metal
+lata de atún,metal
 lata de atun,metal
-tapa metalica,metal
-chatarra pequeña,metal
-restos de comida,organico
+clavo oxidado,metal
+tornillo,metal
+pedazo de metal,metal
+alambre de cobre,metal
+fierro viejo,metal
+chatarra,metal
+cobre,metal
+cuchara de metal,metal
+cáscara de plátano,organico
 cascara de platano,organico
-servilleta con comida,organico
-bolsa con residuos organicos,organico
-huesos de pollo,organico
-cascaras de huevo,organico
-cafe usado,organico
-fruta echada a perder,organico
+cáscara de huevo,organico
+cascara de huevo,organico
+restos de comida,organico
+sobras de comida,organico
+fruta podrida,organico
+verdura podrida,organico
+bolsa de té,organico
+bolsa de te,organico
+granos de café,organico
+granos de cafe,organico
+huesos de comida,organico
+pan duro,organico
+aceite de cocina usado,aceite
+aceite usado,aceite
+aceite quemado,aceite
+aceite de freír,aceite
+aceite de freir,aceite
+grasa líquida,aceite
+grasa liquida,aceite
+pila usada,pilas_baterias
+pilas usadas,pilas_baterias
+batería usada,pilas_baterias
+bateria usada,pilas_baterias
+baterías viejas,pilas_baterias
+baterias viejas,pilas_baterias
+power bank dañada,pilas_baterias
+pila alcalina,pilas_baterias
+pila de reloj,pilas_baterias
 celular viejo,electronico
-cargador que ya no sirve,electronico
-cable usb dañado,electronico
+teléfono viejo,electronico
+telefono viejo,electronico
+cargador roto,electronico
+cable USB,electronico
+audífonos rotos,electronico
 audifonos rotos,electronico
 teclado viejo,electronico
-control remoto descompuesto,electronico
-mouse que no funciona,electronico
-tarjeta electronica quemada,electronico
-pilas usadas,pilas_baterias
-bateria inflada,pilas_baterias
-pila alcalina,pilas_baterias
-bateria de celular,pilas_baterias
-power bank dañado,pilas_baterias
-pila recargable,pilas_baterias
-bateria de laptop,pilas_baterias
-baterias pequeñas,pilas_baterias
-aceite de cocina usado,aceite
-aceite quemado,aceite
-donde tiro aceite,aceite
-aceite de freir,aceite
-aceite en botella,aceite
-grasa liquida,aceite
-sobro aceite de cocina,aceite
-aceite vegetal usado,aceite
+mouse roto,electronico
+control remoto,electronico
+tarjeta electrónica,electronico
+tarjeta electronica,electronico
+laptop dañada,electronico
+tablet vieja,electronico
+tubo fluorescente,peligroso
+foco ahorrador,peligroso
+pintura vieja,peligroso
+solvente,peligroso
+aerosol,peligroso
+insecticida,peligroso
+veneno,peligroso
+químico,peligroso
+quimico,peligroso
+medicina caducada,medicamento
+medicamento caducado,medicamento
+pastillas caducadas,medicamento
+jarabe caducado,medicamento
+antibiótico caducado,medicamento
+antibiotico caducado,medicamento
+tetra pak,tetra_pak
+tetrapak,tetra_pak
+envase de leche,tetra_pak
+caja de leche,tetra_pak
+envase de jugo,tetra_pak
+cartón de leche,tetra_pak
+carton de leche,tetra_pak
+ropa vieja,textil
+camisa vieja,textil
+pantalón roto,textil
+pantalon roto,textil
+zapatos viejos,textil
+tela usada,textil
+trapo viejo,textil
+calcetines viejos,textil
+pañal usado,sanitario
+panal usado,sanitario
+toalla sanitaria,sanitario
+papel higiénico usado,sanitario
+papel higienico usado,sanitario
+cubrebocas usado,sanitario
+guantes usados,sanitario
+jeringa usada,sanitario
+curita usada,sanitario
+servilleta sucia,sanitario
+unicel sucio,no_reciclable
+plato de unicel,no_reciclable
+vaso de unicel,no_reciclable
+envoltura de papas,no_reciclable
+bolsa metalizada,no_reciclable
+chicle,no_reciclable
+colilla de cigarro,no_reciclable
+cerámica rota,no_reciclable
+ceramica rota,no_reciclable
+espejo roto,no_reciclable

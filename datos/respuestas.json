@@ -1,46 +1,77 @@
 {
-  "saludo": [
-    "Hola, soy ReciclaBot. Escribe el residuo que tienes y te digo cómo separarlo.",
-    "Hola. Puedo ayudarte con plástico, vidrio, papel, cartón, metal, orgánico, pilas, aceite y electrónicos."
-  ],
-  "despedida": [
-    "Listo, gracias por usar ReciclaBot. Separar residuos ayuda a reducir contaminación.",
-    "Hasta luego. Recuerda limpiar y separar los residuos antes de reciclarlos cuando sea posible."
-  ],
   "plastico": [
-    "Va en reciclaje de plástico. Si es envase PET, enjuágalo, aplástalo y sepáralo de residuos orgánicos.",
-    "Sepáralo como plástico reciclable. Evita mezclarlo con comida o líquidos para que no contamine otros residuos."
-  ],
-  "papel_carton": [
-    "Va en papel y cartón. Debe estar seco y sin grasa; si tiene comida pegada, ya no se recicla igual.",
-    "Sepáralo como papel/cartón. Dobla las cajas para ahorrar espacio y evita mojarlo."
+    "Sepáralo como plástico reciclable. Si es una botella o envase, vacíalo, enjuágalo y aplástalo para ahorrar espacio.",
+    "Va en plásticos. Revisa que no tenga comida, aceite o líquido antes de separarlo.",
+    "Clasifícalo como plástico. Si tiene tapa, también puede separarse, pero lo ideal es entregarlo limpio y seco."
   ],
   "vidrio": [
-    "Va en vidrio. Si está roto, envuélvelo o márcalo para evitar cortes al manipularlo.",
-    "Sepáralo como vidrio. Lo ideal es que esté vacío y sin residuos de comida o líquidos."
+    "Sepáralo como vidrio. Lo ideal es que esté vacío, limpio y sin residuos de comida o líquidos.",
+    "Va en vidrio. Si está roto, manéjalo con cuidado y envuélvelo para evitar cortaduras.",
+    "Clasifícalo como vidrio. No lo mezcles con focos, cerámica o espejos, porque no se reciclan igual."
+  ],
+  "papel_carton": [
+    "Sepáralo como papel o cartón. Debe estar seco y sin grasa para que pueda reciclarse correctamente.",
+    "Va en papel/cartón. Dobla las cajas para ahorrar espacio y evita mojarlas.",
+    "Clasifícalo como papel o cartón. Si está muy sucio con comida o aceite, ya no se recicla igual."
   ],
   "metal": [
-    "Va en reciclaje de metales. Si es lata, enjuágala y comprímela si es seguro hacerlo.",
-    "Sepáralo como metal reciclable. Evita mezclar piezas filosas sin protección."
+    "Sepáralo como metal. Si es una lata, vacíala y enjuágala antes de depositarla.",
+    "Va en metales. El aluminio, las latas y algunas piezas metálicas pueden reciclarse.",
+    "Clasifícalo como metal. Si tiene residuos de comida, límpialo antes de separarlo."
   ],
   "organico": [
-    "Va en residuos orgánicos o composta. Incluye restos de comida, cáscaras, café usado y residuos biodegradables.",
-    "Sepáralo como orgánico. Si puedes, úsalo para composta y evita mezclarlo con plástico o metal."
-  ],
-  "electronico": [
-    "Es residuo electrónico. No debe ir a la basura común; llévalo a un centro de acopio o campaña de reciclaje electrónico.",
-    "Sepáralo como electrónico. Puede contener metales y componentes que requieren manejo especial."
-  ],
-  "pilas_baterias": [
-    "Las pilas y baterías requieren acopio especial. No las tires con basura común porque pueden contaminar suelo y agua.",
-    "Guárdalas en un recipiente seco y llévalas a un punto de recolección de pilas o electrónicos."
+    "Sepáralo como residuo orgánico. Puede aprovecharse para composta si no tiene químicos ni plásticos.",
+    "Va en orgánicos. Restos de comida, cáscaras y residuos naturales pueden separarse para composta.",
+    "Clasifícalo como orgánico. Evita mezclarlo con plástico, metal o residuos sanitarios."
   ],
   "aceite": [
-    "El aceite usado no debe tirarse al drenaje. Guárdalo en una botella cerrada y llévalo a un punto de acopio.",
-    "Déjalo enfriar, colócalo en un envase cerrado y sepáralo para recolección especial de aceite usado."
+    "No lo tires al drenaje. Déjalo enfriar, colócalo en una botella cerrada y llévalo a un punto de recolección de aceite usado.",
+    "El aceite usado requiere manejo especial. Guárdalo en un envase cerrado y no lo mezcles con agua.",
+    "Clasifícalo como aceite usado. Tirarlo al fregadero contamina el agua y puede tapar tuberías."
+  ],
+  "pilas_baterias": [
+    "No van a la basura común. Las pilas y baterías deben llevarse a un contenedor especial porque pueden contaminar.",
+    "Sepáralas como residuo especial. Guárdalas en un recipiente seco y llévalas a un punto de recolección.",
+    "Clasifícalas como pilas o baterías. No las abras, no las quemes y no las mezcles con residuos normales."
+  ],
+  "electronico": [
+    "Es residuo electrónico. Debe llevarse a reciclaje electrónico o centro de acopio, no a la basura común.",
+    "Clasifícalo como electrónico. Puede contener metales y componentes que requieren manejo especial.",
+    "Va a recolección de electrónicos. Si tiene batería, sepárala si es posible y entrégala también como residuo especial."
+  ],
+  "peligroso": [
+    "Es residuo peligroso. No lo mezcles con basura común y llévalo a un centro de acopio autorizado.",
+    "Requiere manejo especial. Evita derrames, mantenlo cerrado y consulta puntos de recolección de residuos peligrosos.",
+    "No debe tirarse al drenaje ni a la basura normal. Sepáralo y entrégalo en campañas o centros autorizados."
+  ],
+  "medicamento": [
+    "Los medicamentos caducados no van a la basura común. Llévalos a un contenedor especial de medicamentos.",
+    "Clasifícalo como medicamento caducado. No lo tires al drenaje ni lo mezcles con residuos normales.",
+    "Debe entregarse en puntos de recolección de medicamentos para evitar contaminación o mal uso."
+  ],
+  "tetra_pak": [
+    "Sepáralo como envase tipo Tetra Pak. Enjuágalo, escúrrelo y aplástalo antes de reciclarlo.",
+    "Va como multicapa/Tetra Pak. Debe estar limpio y seco para facilitar su aprovechamiento.",
+    "Clasifícalo como Tetra Pak. No lo mezcles con cartón común si tu sistema de reciclaje los separa."
+  ],
+  "textil": [
+    "Sepáralo como textil. Si aún sirve, puede donarse; si está muy dañado, busca recolección de textiles.",
+    "La ropa y telas pueden reutilizarse o reciclarse. No las mezcles con residuos orgánicos o sanitarios.",
+    "Clasifícalo como textil. Lo ideal es lavarlo y entregarlo seco si se va a donar."
+  ],
+  "sanitario": [
+    "Es residuo sanitario. Debe ir bien cerrado en basura no reciclable por higiene.",
+    "No es reciclable. Colócalo en una bolsa cerrada y evita mezclarlo con residuos reciclables.",
+    "Clasifícalo como sanitario. Requiere manejo cuidadoso para evitar riesgos de higiene."
+  ],
+  "no_reciclable": [
+    "Este residuo normalmente no es reciclable. Colócalo en basura general y evita mezclarlo con reciclables limpios.",
+    "Va en no reciclables. Si está sucio con grasa o comida, no debe ir con papel, cartón o plástico reciclable.",
+    "Clasifícalo como basura general. Lo recomendable es reducir su consumo cuando sea posible."
   ],
   "fallback": [
-    "No identifiqué bien el residuo. Intenta escribirlo de forma más específica, por ejemplo: botella PET, pila usada o caja de cartón.",
-    "No estoy segura del tipo de residuo. Escribe el objeto con más detalle para darte una recomendación más útil."
+    "No pude identificarlo con seguridad. Intenta escribir el residuo con más detalle, por ejemplo: botella de plástico, pila usada o caja de cartón.",
+    "No estoy seguro de la categoría. Describe el material principal del residuo: plástico, vidrio, metal, papel, orgánico o electrónico.",
+    "Necesito más información para clasificarlo. Escribe de qué material es y si está limpio, sucio, usado o roto."
   ]
 }
