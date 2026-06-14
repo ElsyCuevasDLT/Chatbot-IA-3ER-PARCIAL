@@ -1,0 +1,18 @@
+{
+  "ejemplos_entrenamiento": 80,
+  "categorias": [
+    "aceite",
+    "despedida",
+    "electronico",
+    "metal",
+    "organico",
+    "papel_carton",
+    "pilas_baterias",
+    "plastico",
+    "saludo",
+    "vidrio"
+  ],
+  "precision_sobre_dataset": 1.0,
+  "archivo_modelo": "reciclabot_modelo.joblib",
+  "nota": "La precision reportada es sobre el dataset educativo usado para entrenar."
+}

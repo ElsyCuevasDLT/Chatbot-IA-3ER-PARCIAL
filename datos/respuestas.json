@@ -1,0 +1,46 @@
+{
+  "saludo": [
+    "Hola, soy ReciclaBot. Escribe el residuo que tienes y te digo cómo separarlo.",
+    "Hola. Puedo ayudarte con plástico, vidrio, papel, cartón, metal, orgánico, pilas, aceite y electrónicos."
+  ],
+  "despedida": [
+    "Listo, gracias por usar ReciclaBot. Separar residuos ayuda a reducir contaminación.",
+    "Hasta luego. Recuerda limpiar y separar los residuos antes de reciclarlos cuando sea posible."
+  ],
+  "plastico": [
+    "Va en reciclaje de plástico. Si es envase PET, enjuágalo, aplástalo y sepáralo de residuos orgánicos.",
+    "Sepáralo como plástico reciclable. Evita mezclarlo con comida o líquidos para que no contamine otros residuos."
+  ],
+  "papel_carton": [
+    "Va en papel y cartón. Debe estar seco y sin grasa; si tiene comida pegada, ya no se recicla igual.",
+    "Sepáralo como papel/cartón. Dobla las cajas para ahorrar espacio y evita mojarlo."
+  ],
+  "vidrio": [
+    "Va en vidrio. Si está roto, envuélvelo o márcalo para evitar cortes al manipularlo.",
+    "Sepáralo como vidrio. Lo ideal es que esté vacío y sin residuos de comida o líquidos."
+  ],
+  "metal": [
+    "Va en reciclaje de metales. Si es lata, enjuágala y comprímela si es seguro hacerlo.",
+    "Sepáralo como metal reciclable. Evita mezclar piezas filosas sin protección."
+  ],
+  "organico": [
+    "Va en residuos orgánicos o composta. Incluye restos de comida, cáscaras, café usado y residuos biodegradables.",
+    "Sepáralo como orgánico. Si puedes, úsalo para composta y evita mezclarlo con plástico o metal."
+  ],
+  "electronico": [
+    "Es residuo electrónico. No debe ir a la basura común; llévalo a un centro de acopio o campaña de reciclaje electrónico.",
+    "Sepáralo como electrónico. Puede contener metales y componentes que requieren manejo especial."
+  ],
+  "pilas_baterias": [
+    "Las pilas y baterías requieren acopio especial. No las tires con basura común porque pueden contaminar suelo y agua.",
+    "Guárdalas en un recipiente seco y llévalas a un punto de recolección de pilas o electrónicos."
+  ],
+  "aceite": [
+    "El aceite usado no debe tirarse al drenaje. Guárdalo en una botella cerrada y llévalo a un punto de acopio.",
+    "Déjalo enfriar, colócalo en un envase cerrado y sepáralo para recolección especial de aceite usado."
+  ],
+  "fallback": [
+    "No identifiqué bien el residuo. Intenta escribirlo de forma más específica, por ejemplo: botella PET, pila usada o caja de cartón.",
+    "No estoy segura del tipo de residuo. Escribe el objeto con más detalle para darte una recomendación más útil."
+  ]
+}

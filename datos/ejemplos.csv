@@ -1,0 +1,81 @@
+texto,categoria
+hola,saludo
+buenas tardes,saludo
+buenos dias,saludo
+hey bot,saludo
+que onda,saludo
+necesito ayuda para reciclar,saludo
+me ayudas a separar basura,saludo
+como funciona esto,saludo
+adios,despedida
+hasta luego,despedida
+nos vemos,despedida
+gracias bye,despedida
+salir,despedida
+terminamos,despedida
+ya no necesito ayuda,despedida
+ok gracias,despedida
+donde tiro una botella de plastico,plastico
+tengo una botella pet,plastico
+en que bote va el plastico,plastico
+vaso desechable de plastico,plastico
+bolsa de plastico limpia,plastico
+envase de shampoo vacio,plastico
+tapa de refresco de plastico,plastico
+garrafon de plastico roto,plastico
+donde pongo carton,papel_carton
+caja de cereal,papel_carton
+hojas usadas,papel_carton
+libreta vieja,papel_carton
+bolsa de papel,papel_carton
+carton de paqueteria,papel_carton
+periodico viejo,papel_carton
+revistas usadas,papel_carton
+donde tiro vidrio,vidrio
+botella de vidrio,vidrio
+frasco de mermelada,vidrio
+vaso de vidrio roto,vidrio
+cristal quebrado,vidrio
+envase de salsa de vidrio,vidrio
+botella de perfume vacia,vidrio
+recipiente de vidrio,vidrio
+lata de aluminio,metal
+donde va una lata,metal
+pieza metalica pequeña,metal
+clavo oxidado,metal
+alambre de cobre,metal
+lata de atun,metal
+tapa metalica,metal
+chatarra pequeña,metal
+restos de comida,organico
+cascara de platano,organico
+servilleta con comida,organico
+bolsa con residuos organicos,organico
+huesos de pollo,organico
+cascaras de huevo,organico
+cafe usado,organico
+fruta echada a perder,organico
+celular viejo,electronico
+cargador que ya no sirve,electronico
+cable usb dañado,electronico
+audifonos rotos,electronico
+teclado viejo,electronico
+control remoto descompuesto,electronico
+mouse que no funciona,electronico
+tarjeta electronica quemada,electronico
+pilas usadas,pilas_baterias
+bateria inflada,pilas_baterias
+pila alcalina,pilas_baterias
+bateria de celular,pilas_baterias
+power bank dañado,pilas_baterias
+pila recargable,pilas_baterias
+bateria de laptop,pilas_baterias
+baterias pequeñas,pilas_baterias
+aceite de cocina usado,aceite
+aceite quemado,aceite
+donde tiro aceite,aceite
+aceite de freir,aceite
+aceite en botella,aceite
+grasa liquida,aceite
+sobro aceite de cocina,aceite
+aceite vegetal usado,aceite
