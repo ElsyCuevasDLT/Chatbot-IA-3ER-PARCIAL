@@ -20,49 +20,55 @@ El usuario escribe un residuo y el bot responde con una recomendación de separa
 
 ## Cómo correrlo
 
-Entrar a la carpeta del proyecto:
+copia y pega esto en la terminal
 
-```bash
-cd /workspaces/PROYECTO-IA/ReciclaBot_ProyIA_23310379
-```
+cat > app.py <<'PY'
+import streamlit as st
+from asistente.motor import responder
 
-Instalar dependencias:
+st.set_page_config(
+    page_title="ReciclaBot",
+    page_icon="♻️",
+    layout="centered"
+)
 
-```bash
-pip install -r requirements.txt
-```
+st.title("♻️ ReciclaBot")
+st.write("Chatbot educativo para clasificar residuos y dar recomendaciones de separación.")
 
-Entrenar el modelo:
+st.markdown("""
+Ejemplos que puedes probar:
+- botella de plástico
+- botella de vidrio
+- caja de cartón
+- aceite de cocina usado
+- pila usada
+- celular viejo
+- medicamento caducado
+- foco ahorrador
+""")
 
-```bash
-python asistente/entrenar.py
-```
+if "historial" not in st.session_state:
+    st.session_state.historial = []
 
-Ejecutar la aplicación:
+mensaje = st.chat_input("Escribe aquí tu residuo...")
 
-```bash
-streamlit run app.py
-```
+if mensaje:
+    resultado = responder(mensaje)
 
-En GitHub Codespaces, abrir el puerto **8501** desde la pestaña **PUERTOS**.
+    st.session_state.historial.append({
+        "usuario": mensaje,
+        "respuesta": resultado["respuesta"],
+        "categoria": resultado["categoria"],
+        "confianza": resultado["confianza"]
+    })
 
-## Forma rápida
+for item in st.session_state.historial:
+    with st.chat_message("user"):
+        st.write(item["usuario"])
 
-Si el modelo ya fue entrenado:
+    with st.chat_message("assistant"):
+        st.write(item["respuesta"])
+        st.caption(f"Categoría detectada: {item['categoria']} | Confianza: {item['confianza']}")
+PY
 
-```bash
-cd /workspaces/PROYECTO-IA/ReciclaBot_ProyIA_23310379
-streamlit run app.py
-```
-
-## Ejemplos
-
-```text
-botella de plastico
-caja de carton
-pila usada
-celular viejo
-aceite de cocina usado
-vidrio roto
-lata de aluminio
-```
+streamlit run app.py --server.address 0.0.0.0 --server.port 8501
